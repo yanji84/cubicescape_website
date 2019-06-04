@@ -1,0 +1,125 @@
+commit 033ba2806af82a0f04fcc40d69fa6d3431418c17
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 21:24:40 2019 -0700
+
+    fixed types in index.html
+
+commit 8c27288ad640f3f5c0403826cc9506332f1482ea
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 21:20:25 2019 -0700
+
+    fixed fiancee misspelling on room-assassination.html
+
+commit eebb83d8b5edd9dfa703e9cceae22f986ba53aaf
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 21:17:26 2019 -0700
+
+    update faq
+
+commit a2007b2f6a2cfc610feb20a492e0164f315f5cb6
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 18:41:59 2019 -0700
+
+    updated who am i info
+
+commit 9c99682ac1ddb94002f954ca38804bdefa418560
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 17:41:50 2019 -0700
+
+    update assassination page
+
+commit 98a56313b4bee4e2df8ff49432e5025eca37f8b8
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 17:29:18 2019 -0700
+
+    updated index.html by adding units to the times
+
+commit 41bb4feaffb73aff25fefc06980e24aadd691cc1
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 17:26:39 2019 -0700
+
+    updated about.html
+
+commit 990ea7c09d9520af63f4d808fec273a64a3651b6
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 15:39:44 2019 -0700
+
+    updated number of players for assassination & who I am
+
+commit e835dfcc359e5328a1729a4c23aa23af11f23c6c
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 15:28:11 2019 -0700
+
+    updated project delta player number
+
+commit 9209511c033226cec815e022a5574227790c09a8
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 15:25:16 2019 -0700
+
+    updated about me
+
+commit 62df3cb3e790aa918deb6aa068eb583018662cf5
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 15:12:40 2019 -0700
+
+    changes
+
+commit 2ce4667413942a8e345a96bba5319d7ac9fdb0e6
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 11:29:57 2019 -0700
+
+    added project delta photo to index.html
+
+commit 9d8600c30de7ff6fc1e986cb9f6070d0b598f130
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Sat Jun 1 11:27:27 2019 -0700
+
+    added project delta pic to room page
+
+commit 549da4b36c1b31f82338e43aac5e34ac64b0f761
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Fri May 31 23:32:08 2019 -0700
+
+    added project photo
+
+commit 4d0b5ac9ebd26c547144a114d732a3efaf7330e7
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Fri May 31 18:23:07 2019 -0700
+
+    updated whoiam time in the description
+
+commit 32777656ba784eb74f8801c76c1d0cb9ee29e74c
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Fri May 31 18:14:39 2019 -0700
+
+    added project delta to index.html
+
+commit 252a575d738a8739fc0e0cc819668fbe978e7fd7
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Fri May 31 17:37:46 2019 -0700
+
+    first commit created room-projectdelta.html
+
+commit 5bdd86487c20f1f96912f15758b9f5312d21cc37
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Wed May 29 21:49:52 2019 -0700
+
+    Renamed Missing to Assassination in room-assassination.html
+
+commit afa9aebec3aad9d9a01ea988f2ea1455703ed784
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Wed May 29 16:47:18 2019 -0700
+
+    Renamed Missing in index.html to Assassination
+
+commit f63cfb33192ab080ba8801eca559f6ee3e0b3328
+Author: Yanni App13 <jonvincruman@gmail.com>
+Date:   Wed May 29 16:45:59 2019 -0700
+
+    renamed room-missing.html to room-assassination.html and updated index.html with rename
+
+commit 8d23e0944547b4fd3feceeeaf6088de1850fb391
+Author: Ji Yan <jiyan@Jis-MacBook-Air.attlocal.net>
+Date:   Sun May 26 09:58:36 2019 -0700
+
+    first checkin
