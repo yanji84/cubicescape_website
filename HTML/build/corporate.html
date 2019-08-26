@@ -50,7 +50,27 @@
 
 	<!-- Custom CSS-->
 	<link href="assets/css/custom.css" rel="stylesheet">
-
+	<style type="text/css">
+		.iframe-container {
+		  overflow: hidden;
+		  padding-top: 56.25%;
+		  position: relative;
+		}
+		 
+		.iframe-container iframe {
+		   border: 0;
+		   height: 100%;
+		   left: 0;
+		   position: absolute;
+		   top: 0;
+		   width: 100%;
+		}
+		 
+		/* 4x3 Aspect Ratio */
+		.iframe-container-4x3 {
+		  padding-top: 75%;
+		}
+	</style>
 </head>
 <body>
 	<!-- Google Tag Manager (noscript) -->
@@ -90,14 +110,6 @@
 			</nav>
 			<!-- Main Navigation / End -->
 			<div class="header__spacer"></div>
-			<nav class="header__nav header__nav--secondary">
-		
-				<!-- CTA Button -->
-				<a href="booking-form.html" class="btn btn-outline-secondary nav-btn">
-					<span class="nav-btn__label">Book Now!</span>
-					<i class="nav-btn__icon icon-calendar"></i>
-				</a>
-			</nav>
 			<!-- Mobile Burger Menu Icon -->
 			<a id="header-mobile__toggle" class="burger-menu-icon">
 				<span class="burger-menu-icon__line"></span>
@@ -115,8 +127,8 @@
 		<div class="section-content">
 			<div class="container">
 				<div class="section-heading section-heading--divider-top">
-					<div>
-					<iframe  width="800" height="2400" src="https://docs.google.com/forms/d/e/1FAIpQLSfmpuoAL0vPYBhW9ZeUXzlb-zuArPCQZ1PsZ70uBm77SwkjFg/viewform"></iframe>
+					<div class="iframe-container">
+						<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmpuoAL0vPYBhW9ZeUXzlb-zuArPCQZ1PsZ70uBm77SwkjFg/viewform" allowfullscreen></iframe>
 				    </div>
 				</div>
 			</div>
