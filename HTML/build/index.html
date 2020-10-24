@@ -50,7 +50,6 @@
 
 	<!-- Custom CSS-->
 	<link href="assets/css/custom.css" rel="stylesheet">
-
 </head>
 <body>
 	<!-- Google Tag Manager (noscript) -->
@@ -59,6 +58,21 @@
 	<!-- End Google Tag Manager (noscript) -->
 
 	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-145760567-1', 'auto', {'allowLinker' : true});ga('require', 'linker'); ga('linker:autoLink', ['resova.us'] );ga('send', 'pageview');</script>
+
+	<audio controls autoplay loop id="track" style="display:none">
+	  <source src="assets/music/background.mp3" type="audio/mpeg">
+	</audio>
+
+	<!-- Javascript Files
+	================================================== -->
+	<!-- Vendors JS -->
+	<script src="assets/vendor/jquery/jquery.min.js"></script>
+	<script src="assets/vendor/jquery/jquery-migrate.min.js"></script>
+	
+	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script defer src="assets/font-icon/font-awesome/js/all.min.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+	<script src="assets/vendor/gmap3/dist/gmap3.min.js"></script>
 
 	<div class="site-wrapper">
 
@@ -86,27 +100,79 @@
 					<li><a href="faq.html">FAQ</a></li>
 					<li><a href="corporate.html">Corporate Event</a></li>
 					<li><a href="page-about.html">About</a></li>
-					<li><a href="https://www.indeed.com/viewjob?cmp=VEV-Group&from=iaBackPress&jk=e399c4a883edf593&q=game%20master&t=Game%20Master&vjs=3">Join Us</a></li>
+					<li><a href="https://www.indeed.com/viewjob?cmp=VEV-Group&from=iaBackPress&jk=e399c4a883edf593&q=game%20master&t=Game%20Master&vjs=3" target="_blank">Join Us</a></li>
 				</ul>
 			</nav>
 			<div class="header__spacer"></div>
+			<div id="player-container">
+			  <div id="play-pause" class="play">Play</div>
+			</div>
 			<nav class="header__nav header__nav--secondary">
 		
-				<!-- CTA Button -->
 				<a href="booking-form.html" class="btn btn-outline-secondary nav-btn">
 					<span class="nav-btn__label">Book Now!</span>
 					<i class="nav-btn__icon icon-calendar"></i>
 				</a>
 			</nav>
-			<!-- Mobile Burger Menu Icon -->
 			<a id="header-mobile__toggle" class="burger-menu-icon">
 				<span class="burger-menu-icon__line"></span>
 				<span class="burger-menu-icon__line"></span>
 				<span class="burger-menu-icon__line"></span>
 			</a>
-			<!-- Mobile Burger Menu Icon / End -->
 		</header>
 		<!-- Header / End -->
+
+		<style type="text/css">
+			#player-container #play-pause {
+		  cursor: pointer;
+		  text-indent: -999999px;
+		  height:40px;
+		  width: 40px;
+		  background: #0;
+		  background-image: url('http://basichow.com/asserts/images/play.png');
+		  background-repeat:no-repeat;
+		  background-position:center;
+		  background-size:20px;
+		}
+		.play {
+		  background-image: url('http://basichow.com/asserts/images/play.png');
+		}
+		.pause {
+		   background-image: url('http://basichow.com/asserts/images/pause.png')!important;
+		}</style>
+
+		<script type="text/javascript">
+		$( document ).ready(function() {
+		    if (track.paused) {
+		        //controlBtn.textContent = "Pause";
+		        controlBtn.className = "pause";
+		    } else { 
+		         //controlBtn.textContent = "Play";
+		        controlBtn.className = "play";
+		    }
+		});
+
+		var track = document.getElementById('track');
+
+		var controlBtn = document.getElementById('play-pause');
+
+		function playPause() {
+		    if (track.paused) {
+		        track.play();
+		        //controlBtn.textContent = "Pause";
+		        controlBtn.className = "pause";
+		    } else { 
+		        track.pause();
+		         //controlBtn.textContent = "Play";
+		        controlBtn.className = "play";
+		    }
+		}
+
+		controlBtn.addEventListener("click", playPause);
+		track.addEventListener("ended", function() {
+		  controlBtn.className = "play";
+		});
+		</script>
 
 		<!-- Main Slider -->
 		<div class="main-slider-wrapper">
@@ -344,23 +410,14 @@
 		</footer>
 		<!-- Footer / End -->
 	</div><!-- .site-wrapper -->
-
-	<!-- Javascript Files
-	================================================== -->
-	<!-- Vendors JS -->
-	<script src="assets/vendor/jquery/jquery.min.js"></script>
-	<script src="assets/vendor/jquery/jquery-migrate.min.js"></script>
-	
-	<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	<script defer src="assets/font-icon/font-awesome/js/all.min.js"></script>
-	<script src="//maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
-	<script src="assets/vendor/gmap3/dist/gmap3.min.js"></script>
 	
 	<!-- Core JS -->
 	<script src="assets/js/core.js"></script>
 	
 	<!-- Template JS -->
 	<script src="assets/js/init.js"></script>
+
+	<script type="text/javascript">
 
 </body>
 </html>
