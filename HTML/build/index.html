@@ -1,13 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
 <head>
-	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-5ZFJBQJ');</script>
-	<!-- End Google Tag Manager -->
 	<!-- Basic Page Needs
 	================================================== -->
 	<title>Cubicescape</title>
@@ -52,17 +45,6 @@
 	<link href="assets/css/custom.css" rel="stylesheet">
 </head>
 <body>
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5ZFJBQJ"
-	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-
-	<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) })(window,document,'script','https://www.google-analytics.com/analytics.js','ga'); ga('create', 'UA-145760567-1', 'auto', {'allowLinker' : true});ga('require', 'linker'); ga('linker:autoLink', ['resova.us'] );ga('send', 'pageview');</script>
-
-	<audio controls autoplay loop id="track" style="display:none">
-	  <source src="assets/music/background.mp3" type="audio/mpeg">
-	</audio>
-
 	<!-- Javascript Files
 	================================================== -->
 	<!-- Vendors JS -->
@@ -104,9 +86,6 @@
 				</ul>
 			</nav>
 			<div class="header__spacer"></div>
-			<div id="player-container">
-			  <div id="play-pause" class="play">Play</div>
-			</div>
 			<nav class="header__nav header__nav--secondary">
 		
 				<a href="booking-form.html" class="btn btn-outline-secondary nav-btn">
@@ -121,58 +100,6 @@
 			</a>
 		</header>
 		<!-- Header / End -->
-
-		<style type="text/css">
-			#player-container #play-pause {
-		  cursor: pointer;
-		  text-indent: -999999px;
-		  height:40px;
-		  width: 40px;
-		  background: #0;
-		  background-image: url('http://basichow.com/asserts/images/play.png');
-		  background-repeat:no-repeat;
-		  background-position:center;
-		  background-size:20px;
-		}
-		.play {
-		  background-image: url('http://basichow.com/asserts/images/play.png');
-		}
-		.pause {
-		   background-image: url('http://basichow.com/asserts/images/pause.png')!important;
-		}</style>
-
-		<script type="text/javascript">
-		$( document ).ready(function() {
-		    if (track.paused) {
-		        //controlBtn.textContent = "Pause";
-		        controlBtn.className = "pause";
-		    } else { 
-		         //controlBtn.textContent = "Play";
-		        controlBtn.className = "play";
-		    }
-		});
-
-		var track = document.getElementById('track');
-
-		var controlBtn = document.getElementById('play-pause');
-
-		function playPause() {
-		    if (track.paused) {
-		        track.play();
-		        //controlBtn.textContent = "Pause";
-		        controlBtn.className = "pause";
-		    } else { 
-		        track.pause();
-		         //controlBtn.textContent = "Play";
-		        controlBtn.className = "play";
-		    }
-		}
-
-		controlBtn.addEventListener("click", playPause);
-		track.addEventListener("ended", function() {
-		  controlBtn.className = "play";
-		});
-		</script>
 
 		<!-- Main Slider -->
 		<div class="main-slider-wrapper">
@@ -217,25 +144,6 @@
 		================================================== -->
 		<main class="site-content">
 		
-		<!-- Section: Featured Rooms -->
-		<div class="section-content">
-			<div class="container">
-				<div class="section-heading section-heading--divider-top">
-					<h2 class="section-heading__title" data-aos="fade" data-aos-duration="600">Available Stories</h2>
-				</div>
-				<div id="resova-wrapper"></div>
-				<script>(function(d, s, id) {
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) return;
-				js = d.createElement(s); js.id = id;
-				js.src = "https://cubicescape.resova.us/widget";
-				fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'resova-pi'));
-				</script>
-			</div>
-		</div>
-		<!-- Section: Featured Rooms / End -->
-
 		<!-- Section: How it works -->
 		<div class="section-content section-content--secondary" style="background-image:url(assets/img/samples/bgimg2.jpg);background-size=cover">
 			<div class="container">
@@ -295,28 +203,6 @@
 		</div>
 		<!-- Section: How it works / End -->
 
-		<div class="section-content section-content--secondary">
-			<div class="container">
-				<div class="section-heading section-heading--divider-top">
-					<h2 class="section-heading__title" data-aos="fade" data-aos-duration="600">Connect With Us</h2>
-				</div>
-
-				<div class="row" style="text-align:center">
-					<div class="col-md-3">
-						<a class="twitter-timeline" data-width="300" data-height="800" data-dnt="true" data-theme="dark" href="https://twitter.com/CubicEscape?ref_src=twsrc%5Etfw">Tweets by CubicEscape</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-					</div>
-					<div class="col-md-6">
-						<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-						<div class="elfsight-app-d7484e81-b404-4923-ad60-66e1a7dfa97d" style="margin-bottom: 8px"></div>
-					</div>
-					<div class="col-md-3">
-						<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-						<div class="elfsight-app-9afb6e11-52cb-4c0e-b760-ba9a82d9b197"></div>
-					</div>
-				</div>		
-			</div>
-		</div>
-
 		</main>
 
 		<!-- Footer
@@ -348,31 +234,6 @@
 								</div>
 							</div>
 							<!-- Widget: Address / End -->
-						</div>
-						<div class="col-xs-12 col-sm-6 col-lg-3">
-							<!-- Widget: Social Links -->
-							<div class="widget widget--footer widget-social">
-								<div class="widget__header">
-									<h4 class="widget__title">Social Links</h4>
-								</div>
-								<div class="widget__content">
-									<ul class="social-links social-links--circle">
-										<li class="social-links__item">
-											<a class="social-links__link" href="https://www.facebook.com/cubicescaperoom/"><i class="fab fa-facebook-f"></i></a>
-										</li>
-										<li class="social-links__item">
-											<a class="social-links__link" href="https://twitter.com/CubicEscape"><i class="fab fa-twitter"></i></a>
-										</li>
-										<li class="social-links__item">
-											<a class="social-links__link" href="https://www.instagram.com/cubicescaperoomsj/"><i class="fab fa-instagram"></i></a>
-										</li>
-										<li class="social-links__item">
-											<a class="social-links__link" href="https://www.yelp.com/biz/cubic-escape-room-san-jose"><i class="fab fa-yelp"></i></a>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<!-- Widget: Social Links / End -->
 						</div>
 						<div class="col-xs-12 col-sm-6 col-lg-3">
 							<!-- Widget: Google Map -->
